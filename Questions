@@ -1,0 +1,153 @@
+# 🏢 IT Company SQL Practical Project – Real-Life Business Questions
+
+## 🎯 Objective
+This project simulates **real IT company operations** where SQL is used for:
+- Employee management
+- Project tracking
+- Cost & productivity analysis
+- Reporting for management
+- Automation & data integrity
+
+All questions are **business-driven**, not function-driven.
+
+---
+
+## 🗂️ Business Context
+You are working as a **Data Analyst / SQL Developer** in an IT company.
+Management, HR, Finance, and Project Managers ask you questions daily.
+Your job is to answer them using SQL.
+
+---
+
+# 🟢 PHASE 1: Data Setup & Daily Operations
+
+1. Set up the IT company database with departments, employees, projects, tasks, attendance, and salary details.
+2. HR wants to add a new department and move some employees to it.
+3. Finance realizes salary values need higher precision — modify the schema without losing data.
+4. Remove an obsolete column that is no longer used in reporting.
+5. Correct salary details for employees where incorrect data was entered.
+
+---
+
+# 🟢 PHASE 2: Employee & HR Analytics
+
+6. HR wants a list of all active employees with their department and role.
+7. Identify employees who joined in the last 1 year.
+8. Find employees whose salary is above the company average.
+9. Classify employees into **Low / Medium / High** salary brackets for appraisal planning.
+10. Find employees who do not report to any manager.
+
+---
+
+# 🟢 PHASE 3: Department-Level Insights
+
+11. Show how many employees work in each department.
+12. Identify departments with unusually high payroll costs.
+13. Find departments where average salary is higher than the company average.
+14. Sort departments based on total employee cost.
+15. Identify departments that currently have no employees.
+
+---
+
+# 🟢 PHASE 4: Project & Client Analysis
+
+16. List all ongoing projects with client name and duration.
+17. Identify projects that are delayed beyond their expected end date.
+18. Find projects where actual work hours exceeded expectations.
+19. Calculate total cost spent per project based on employee salaries and hours worked.
+20. Identify clients generating the highest workload for the company.
+
+---
+
+# 🟢 PHASE 5: Task & Productivity Analysis
+
+21. Show how many tasks each employee has worked on.
+22. Identify employees working on multiple projects simultaneously.
+23. Find employees who have not been assigned any task.
+24. Calculate average hours spent per task.
+25. Identify tasks that are still pending or overdue.
+
+---
+
+# 🟢 PHASE 6: Attendance & Work Hours
+
+26. Calculate total working hours per employee.
+27. Identify employees with consistently low working hours.
+28. Generate monthly attendance summaries for payroll processing.
+29. Identify days where attendance data is missing.
+30. Compare attendance hours vs task hours to find inefficiencies.
+
+---
+
+# 🟢 PHASE 7: Combined Business Reports (Multi-Table)
+
+31. Generate a report showing employee name, department, project, and total hours worked.
+32. Identify departments contributing the most billable hours.
+33. Find employees contributing the highest value to high-budget projects.
+34. Identify projects that rely heavily on a single department.
+35. Generate a management dashboard dataset combining HR, project, and finance data.
+
+---
+
+# 🟢 PHASE 8: Set-Based Analysis (UNION / INTERSECT / EXCEPT)
+
+36. Get a combined list of employees who worked on **Project A or Project B**.
+37. Find employees who worked on **both internal and client projects**.
+38. Identify employees who worked on projects but never logged attendance.
+39. Find employees present in attendance records but not assigned any tasks.
+40. Create a unified employee activity list from tasks and attendance.
+
+---
+
+# 🟢 PHASE 9: Views for Business Reporting
+
+41. Create a reusable report showing employee workload and department.
+42. Create a project performance summary for management.
+43. Use reporting views to answer recurring business questions.
+44. Modify a reporting view when business logic changes.
+45. Remove outdated reports safely.
+
+---
+
+# 🟢 PHASE 10: Business Rules & Automation
+
+46. Automatically log salary changes for audit purposes.
+47. Prevent insertion of invalid salary or work-hour data.
+48. Ensure deleted employee records are tracked for compliance.
+49. Automatically update summary tables when new attendance is added.
+50. Enforce company rules without manual checks.
+
+---
+
+# 🟢 PHASE 11: Reusable Logic (Functions & Procedures)
+
+51. HR wants a reusable logic to calculate annual compensation.
+52. Management wants a reusable way to fetch department-wise employee lists.
+53. Create a reusable process to onboard new employees.
+54. Update employee salary safely with validation.
+55. Generate department-level reports using reusable logic.
+
+---
+
+# 🟢 PHASE 12: Safe Data Changes & Transactions
+
+56. Perform company-wide salary revision safely.
+57. Ensure partial updates do not corrupt payroll data.
+58. Roll back changes if any step fails.
+59. Simulate system failure and recover data.
+60. Maintain data consistency during bulk operations.
+
+---
+
+# 🟢 PHASE 13: Advanced Decision-Making Queries
+
+61. Rank employees based on contribution within their department.
+62. Identify top performers per department.
+63. Compare current vs previous salary for employees.
+64. Track growth trends in department cost.
+65. Identify employees nearing promotion thresholds.
+
+
+
+
+
