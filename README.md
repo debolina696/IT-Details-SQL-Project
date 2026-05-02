@@ -173,4 +173,11 @@ This file acts as:
 
 ⭐ **Star this repo if it helps your learning**  
 📌 Built with a focus on **clarity, realism, and long-term value**
+---
+
+## 👤 Author
+
+**Debolina Sorkhel**
+
+Data Analyst | Python | Data Visualization | Forecasting
 
